@@ -22,16 +22,6 @@ Thanks!</description>
     </item>
     
     <item>
-      <title>Example content</title>
-      <link>https://mairamartins.com/blog/posts/example-content/</link>
-      <pubDate>Tue, 07 Feb 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://mairamartins.com/blog/posts/example-content/</guid>
-      <description>Howdy! This is an example blog post that shows several types of HTML content supported in this theme.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
- Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.</description>
-    </item>
-    
-    <item>
       <title>What&#39;s Hugo?</title>
       <link>https://mairamartins.com/blog/posts/whats-hugo/</link>
       <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
