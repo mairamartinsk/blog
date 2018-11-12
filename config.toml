@@ -1,18 +1,75 @@
-baseURL = "https://mairamartins.com/blog"
-languageCode = "en-us"
-theme = "hyde"
-title = "Maíra K"
-[[menu.main]]
-name = "Github"
-url = "https://github.com/mairamartinsk"
-weight = 3
-[[menu.main]]
-name = "Portfolio"
-url = "https://mairamartins.com"
-weight = 2
-[params]
-disqusShortname = ""
+# Site settings
+baseurl = "https://mairamartins.com/blog"
+languageCode = "en"
+title = "Maíra K Blog"
+theme = "cactusplus"
 googleAnalytics = ""
-layoutReverse = false
-theme = "hyde"
-themeColor = ""
+
+# Set to true if writing with asian characters
+hasCJKLanguage = false
+
+[params]
+	author = "site_author"
+	description = "Front end development blog"
+	bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between. Currently digging React.js!"
+
+	twitter = "mairamartinsk"
+	facebook = ""
+	enableDisqus = false
+	disqusShortname = ""
+	enableRSS = true
+	enableToc = false
+	enableSummary = true
+
+	# Set the value to true if use description in post front matter replace content summary
+	useDescriptionReplaceSummary = false
+
+	enableGoogleAnalytics = true
+	enableBaiduAnalytics = false
+	baiduAnalytics = ''
+
+	enableTwitterCard = true
+	# The url for twitter card image, default is avatar.png in static/images directory
+	twitterCardImage = ""
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# show latest posts in single page
+	showLatestPosts = true
+	readMore = ""
+
+	# Share
+	enableShare = true
+	tweet = ""
+	share = ""
+
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+	facebook-square = ""
+	twitter-square = "https://www.twitter.com/mairamartinsk"
+	github-square = "https://www.github.com/mairamartinsk"
