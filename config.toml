@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://admiring-euler-8e52d1.netlify.com"
 languageCode = "en-us"
 theme = "hyde"
-title = "My New Hugo Site"
+title = "Maíra K"
 [params]
 disqusShortname = ""
 googleAnalytics = ""
