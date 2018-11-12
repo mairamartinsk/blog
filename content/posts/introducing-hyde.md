@@ -8,3 +8,5 @@ Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll
 It pairs a prominent sidebar with uncomplicated content.
 
 Thanks!
+
+![](https://res.cloudinary.com/mairak/image/upload/v1542011809/samples/animals/kitten-playing.gif)
