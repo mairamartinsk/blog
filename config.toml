@@ -22,25 +22,31 @@ hasCJKLanguage = false
 	enableTwitterCard = true
 	twitterCardImage = ""
 
-	about = ""
-	archive = ""
-	copyright = ""
+	# Add custom assets with their paths relative to the static folder
 	customCSS = []
 	customJS = []
-	enableShare = true
-	googleAnalytics = ""
+
+	# Optional: Customize or translate strings below
 	home = ""
-	layoutReverse = false
-	newerPosts = ""
-	olderPosts = ""
-	readMore = ""
-	share = ""
-	showLatestPosts = true
+	about = ""
+	archive = ""
 	subscribe = ""
-	subtitle404 = ""
-	themeColor = ""
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# Show latest posts in single page
+	showLatestPosts = false
+	readMore = ""
+
+	# Share
+	enableShare = true
+	tweet = "Share on Twitter"
+	share = "Share on Facebook"
+
+	# 404 Page
 	title404 = ""
-	tweet = ""
+	subtitle404 = ""
 
 	# Social icons served by "mono-social" or "font-awesome"
 	iconFont = "mono-social"
