@@ -1,0 +1,30 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: ''
+webhook_url: 
+sections:
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - post
+- type: directory
+  path: content
+  label: Pages
+  create: documents
+  match: "*"
+  templates:
+  - page
+- type: document
+  path: config.toml
+  label: Site Configuration
+upload_dir: ''
+public_path: https://res.cloudinary.com/mairak/image/upload
+front_matter_path: ''
+use_front_matter_path: true
+file_template: ":filename:"
+version: '0.51'
