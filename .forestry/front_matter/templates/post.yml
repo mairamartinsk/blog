@@ -20,5 +20,3 @@ fields:
   hidden: false
   default: ''
   description: Add publishing date here
-pages:
-- content/posts/introducing-hyde.md

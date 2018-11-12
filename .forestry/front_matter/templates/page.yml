@@ -20,5 +20,3 @@ fields:
   config:
     required: false
   description: Add publishing date here
-pages:
-- content/about.md
