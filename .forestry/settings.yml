@@ -16,7 +16,8 @@ sections:
   path: content
   label: Pages
   create: documents
-  match: "*"
+  match: "**/*"
+  exclude: posts/*
   templates:
   - page
 - type: document
