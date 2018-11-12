@@ -5,10 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: ".forestry"
   label: Site Settings
   create: none
-  match: "**/*.yml"
+  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
