@@ -13,10 +13,10 @@ sections:
   templates:
   - post
 - type: directory
-  path: content
+  path: content/**
   label: Pages
   create: documents
-  match: "**/*"
+  match: _index.md
   exclude: posts/*
   templates:
   - page
