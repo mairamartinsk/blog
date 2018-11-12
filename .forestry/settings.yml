@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: ".forestry"
   label: Site Settings
-  create: none
+  create: all
   match: "**/*"
 - type: directory
   path: content/posts
