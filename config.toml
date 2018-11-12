@@ -2,6 +2,14 @@ baseURL = "https://mairamartins.com/blog"
 languageCode = "en-us"
 theme = "hyde"
 title = "Maíra K"
+[[menu.main]]
+name = "Github"
+url = "https://github.com/mairamartinsk"
+weight = 3
+[[menu.main]]
+name = "Portfolio"
+url = "https://mairamartins.com"
+weight = 2
 [params]
 disqusShortname = ""
 googleAnalytics = ""

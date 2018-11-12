@@ -2,6 +2,10 @@
 layout: post
 title: What's Hugo?
 date: 2012-02-06 00:00:00 +0000
+menu:
+  main:
+    name: Internal
+    weight: 4
 
 ---
 [Hugo](http://jekyllrb.com) is the world’s fastest static website engine. It’s written in Go (aka Golang) and developed by [bep](https://github.com/bep), [spf13](https://github.com/spf13) and [friends](https://github.com/gohugoio/hugo/graphs/contributors). From [the project's readme](https://github.com/gohugoio/hugo/blob/master/README.md):
