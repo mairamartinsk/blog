@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: "./forestry"
+  label: Site Settings
+  create: all
+  match: "**/*"
+  templates:
+  - config
+- type: directory
   path: content/posts
   label: Posts
   create: all
