@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Maíra K</title>
+    <link>https://mairamartins.com/blog/posts/</link>
+    <description>Recent content in Posts on Maíra K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mairamartins.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Hyde</title>
+      <link>https://mairamartins.com/blog/posts/introducing-hyde/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mairamartins.com/blog/posts/introducing-hyde/</guid>
+      <description>Hyde is a brazen two-column hugo theme based on the Jekyll theme of the same name. It pairs a prominent sidebar with uncomplicated content.
+Hyde features Hyde adds the following:
+ Sidebar includes support for textual modules and a dynamically generated navigation with active link support Two orientations for content and sidebar, default (left sidebar) and reverse (right sidebar), available via &amp;lt;body&amp;gt; classes Eight optional color schemes, available via &amp;lt;body&amp;gt; classes  Head to the readme to learn more.</description>
+    </item>
+    
+    <item>
+      <title>Example content</title>
+      <link>https://mairamartins.com/blog/posts/example-content/</link>
+      <pubDate>Tue, 07 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mairamartins.com/blog/posts/example-content/</guid>
+      <description>Howdy! This is an example blog post that shows several types of HTML content supported in this theme.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+ Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s Hugo?</title>
+      <link>https://mairamartins.com/blog/posts/whats-hugo/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mairamartins.com/blog/posts/whats-hugo/</guid>
+      <description>Hugo is the world’s fastest static website engine. It’s written in Go (aka Golang) and developed by bep, spf13 and friends. From the project&amp;rsquo;s readme:
+ Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.</description>
+    </item>
+    
+  </channel>
+</rss>
