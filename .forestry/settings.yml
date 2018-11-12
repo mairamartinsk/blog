@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: FIRSTSTEPS.md
-  label: Welcome - Start Here!
-  read_only: true
-- type: document
-  path: config.toml
-  label: Site Configuration
 - type: directory
   path: content/posts
   label: Posts
@@ -26,6 +19,9 @@ sections:
   match: "*"
   templates:
   - page
+- type: document
+  path: config.toml
+  label: Site Configuration
 upload_dir: ''
 public_path: https://res.cloudinary.com/mairak/image/upload
 front_matter_path: ''
