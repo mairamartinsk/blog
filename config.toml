@@ -1,48 +1,54 @@
-baseURL = "https://mairamartins.com/blog"
+# Site Settings
+baseURL = "/"
+languageCode = "en"
+title = "Maira K Blog"
 theme = "cactusplus"
 googleAnalytics = ""
 hasCJKLanguage = false
-languageCode = "en"
-title = "Maíra K Blog"
+
 [params]
-about = ""
-archive = ""
-author = "site_author"
-baiduAnalytics = ""
-bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between. Currently digging React.js!"
-copyright = ""
-customCSS = []
-customJS = []
-description = "Front end development blog"
-disqusShortname = ""
-enableBaiduAnalytics = false
-enableDisqus = false
-enableGoogleAnalytics = true
-enableRSS = true
-enableShare = true
-enableSummary = true
-enableToc = false
-enableTwitterCard = true
-facebook = ""
-googleAnalytics = ""
-home = ""
-iconFont = "font-awesome"
-layoutReverse = false
-newerPosts = ""
-olderPosts = ""
-readMore = ""
-share = ""
-showLatestPosts = true
-socialIconStyle = ""
-subscribe = ""
-subtitle404 = ""
-themeColor = ""
-title404 = ""
-tweet = ""
-twitter = "mairamartinsk"
-twitterCardImage = ""
-useDescriptionReplaceSummary = false
+	author = "Maira Martins"
+	description = "Front end development blog"
+	bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between. Currently digging React.js!"
+	twitter = "mairamartinsk"
+
+	enableRSS = true
+	enableToc = false
+	enableDisqus = false
+	enableSummary = true
+	useDescriptionReplaceSummary = false
+	enableBaiduAnalytics = false
+	enableGoogleAnalytics = true
+	enableTwitterCard = true
+	twitterCardImage = ""
+
+	about = ""
+	archive = ""
+	copyright = ""
+	customCSS = []
+	customJS = []
+	enableShare = true
+	googleAnalytics = ""
+	home = ""
+	layoutReverse = false
+	newerPosts = ""
+	olderPosts = ""
+	readMore = ""
+	share = ""
+	showLatestPosts = true
+	subscribe = ""
+	subtitle404 = ""
+	themeColor = ""
+	title404 = ""
+	tweet = ""
+
+	# Social icons served by "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+	socialIconStyle = "circle"
+
+# Add additional social links
 [social]
-facebook-square = ""
-github-square = "https://www.github.com/mairamartinsk"
-twitter-square = "https://www.twitter.com/mairamartinsk"
+	github = "https://www.github.com/mairamartinsk"
+	twitter = "https://www.twitter.com/mairamartinsk"
+	linkedin = "https://www.linkedin.com/in/mairamartinsk"
+	instagram = "https://www.instagram.com/mairamartinsk"

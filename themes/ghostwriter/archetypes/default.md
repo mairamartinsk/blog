@@ -1,8 +1,8 @@
 +++
 title = "{{ humanize .Name | title }}"
 description = ""
-author = "Maira Martins"
+author = ""
 date = {{ .Date }}
 tags = []
-draft = false
+draft = true
 +++
