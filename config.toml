@@ -1,9 +1,8 @@
 baseURL = "https://mairamartins.com/blog"
-baseurl = "https://mairamartins.com/blog"
+theme = "cactusplus"
 googleAnalytics = ""
 hasCJKLanguage = false
 languageCode = "en"
-theme = "cactusplus"
 title = "Maíra K Blog"
 [params]
 about = ""
