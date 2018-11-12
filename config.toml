@@ -5,6 +5,6 @@ title = "Maíra K"
 [params]
 disqusShortname = ""
 googleAnalytics = ""
-layoutReverse = false
+layoutReverse = true
 theme = "hyde"
 themeColor = ""
