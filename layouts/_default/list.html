@@ -1,0 +1,34 @@
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "nav.html" . }}
+
+  <section id="wrapper" class="home">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ range .Data.Pages.GroupByDate "2006" }}
+    <div class="archive">
+      <h3>{{ .Key }}</h3>
+      <ul>
+        {{ range .Pages }}
+        <div class="post-item">
+          <div class="post-time">{{ .Date.Format "Jan 2" }}</div>
+          <a href="{{ .Permalink }}" class="post-link">
+            {{ .Title }}
+          </a>
+        </div>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ partial "footer.html" . }}
+  </section>
+
+  <div class="dd">
+  </div>
+
+  {{ partial "js.html" . }}
+</body>
+
+</html>
