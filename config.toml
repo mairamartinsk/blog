@@ -1,18 +1,18 @@
 # Site Settings
 baseURL = "/"
 languageCode = "en"
-title = "Maira K Blog"
+title = "Maira Martins K"
 theme = "cactusplus"
 googleAnalytics = ""
 hasCJKLanguage = false
 
 [params]
-	author = "Maira Martins"
-	description = "Front end development blog"
+	author = "Maira Martins K"
+	description = "A blog about front-end web development."
 	bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between. Currently digging React.js!"
 	twitter = "mairamartinsk"
 
-	enableRSS = true
+	enableRSS = false
 	enableToc = false
 	enableDisqus = false
 	enableSummary = true
@@ -23,7 +23,7 @@ hasCJKLanguage = false
 	twitterCardImage = ""
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = []
+	customCSS = ["css/custom.css"]
 	customJS = []
 
 	# Optional: Customize or translate strings below
