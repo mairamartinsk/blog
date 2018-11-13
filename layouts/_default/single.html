@@ -10,18 +10,12 @@
           {{ .Title }}
         </h1>
         <h2 class="headline">
-          {{ .Date.Format "Jan 2, 2006" }}
-          · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
-          · {{ .ReadingTime }} minute read
-          <span class="tags">
-            {{ with .Params.tags }}
-            {{ if ge (len .) 1 }}
-            {{ range . }}
-            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-            {{ end }}
-            {{ end}}
-          </span>
+          {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
+          · {{ .ReadingTime }} minute read {{ with .Params.categories }}
+          {{ range . }} · under
+          <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+          {{ end}}
         </h2>
       </header>
       {{ if .Site.Params.enableToc }}
@@ -39,6 +33,8 @@
     {{ if .Site.Params.enableShare }}
     {{ partial "share.html" . }}
     {{ end }}
+
+    {{ partial "tags.html" . }}
 
     {{ if .Site.Params.enableDisqus }}
     {{ partial "disqus.html" . }}

@@ -3,18 +3,18 @@
     <span class="logo--M">MK</span><span class="logo--K">Maira Martins K</span>
   </div>
 
+  <div class="mobile__toggle"><span></span> <span></span> <span></span></div>
+
   <div class="menu">
     {{ $url := replace .Permalink .Site.BaseURL "" }} {{ if not .IsHome }}
     <a href="{{ .Site.BaseURL }}">
       {{ with.Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a
     >
     {{ end }}
-    <a href="{{ .Site.BaseURL }}posts"
-      >{{ with.Site.Params.archive }}{{ . }}{{ else }}Archive{{ end }}</a
-    >
-    <a href="{{ .Site.BaseURL }}tags"
-      >{{ with.Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a
-    >
+
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+    {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+    <a href="{{ .Permalink }}">{{ $name }}</a> {{ end }} {{ end }}
     <a href="{{ .Site.BaseURL }}about"
       >{{ with.Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a
     >

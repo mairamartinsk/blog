@@ -15,7 +15,7 @@ hasCJKLanguage = false
 	enableRSS = false
 	enableToc = false
 	enableDisqus = false
-	enableSummary = true
+	enableSummary = false
 	useDescriptionReplaceSummary = false
 	enableBaiduAnalytics = false
 	enableGoogleAnalytics = true
@@ -24,7 +24,7 @@ hasCJKLanguage = false
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ["css/custom.css"]
-	customJS = []
+	customJS = ["js/app.js"]
 
 	# Optional: Customize or translate strings below
 	home = ""
@@ -40,7 +40,7 @@ hasCJKLanguage = false
 	readMore = ""
 
 	# Share
-	enableShare = true
+	enableShare = false
 	tweet = "Share on Twitter"
 	share = "Share on Facebook"
 

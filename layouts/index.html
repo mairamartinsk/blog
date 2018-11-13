@@ -5,13 +5,11 @@
   {{ partial "profile.html" . }}
 
   <section id="wrapper" class="home">
-    {{ range .Data.Pages.GroupByDate "2006" }}
     <div class="archive">
-      <h3>{{ .Key }}</h3>
       <ul>
-        {{ range .Pages }}
+        {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
         <div class="post-item">
-          <div class="post-time">{{ .Date.Format "Jan 2" }}</div>
+          <div class="post-time">{{ .Date.Format "2006-01-02" }}</div>
           <a href="{{ .Permalink }}" class="post-link">
             {{ .Title }}
           </a>
@@ -19,7 +17,6 @@
         {{ end }}
       </ul>
     </div>
-    {{ end }}
 
     {{ partial "footer.html" . }}
   </section>

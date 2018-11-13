@@ -1,0 +1,6 @@
+<div class="site-tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+  <a href="{{ .Permalink }}" class="button {{ $name }}">{{ $name }}</a>
+  {{ end }} {{ end }}
+</div>
