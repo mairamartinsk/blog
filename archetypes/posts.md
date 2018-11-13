@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+type: "blog"
 url: ""
 description: ""
-featuredImage: ""
 date: {{ .Date }}
 categories: [""]
 tags: [""]
