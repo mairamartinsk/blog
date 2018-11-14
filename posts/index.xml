@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maira Martins K</title>
-    <link>https://mairamartins.com/blog/</link>
-    <description>Recent content on Maira Martins K</description>
+    <title>Posts on Maira Martins K</title>
+    <link>https://mairamartins.com/blog/posts/</link>
+    <description>Recent content in Posts on Maira Martins K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Nov 2018 07:00:45 +0100</lastBuildDate>
     
-	<atom:link href="https://mairamartins.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mairamartins.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://mairamartins.com/blog/hello-world/</guid>
       <description>This is my second attempt at a programming blog. The first time was about a year ago, right when I first started to learn web development and unfortunately I was overcome with impostor syndrome and ended up deleting all the posts. I kinda regret that I didn&amp;rsquo;t keep at it. It would have been so nice to go back and read about my many discoveries and challenges.
 (You hear that, reader from the future?</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://mairamartins.com/blog/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mairamartins.com/blog/about/</guid>
-      <description>I&amp;rsquo;m Maira, a Brazilian/Swedish web developer living in Barcelona. Lover of CSS, dogs, sushi and React.js (in no order of preference).
- My passion for web development started at age 15, when I bought a &amp;ldquo;How to Build a Website - For Dummies&amp;rdquo; book. From that moment on, my life got filled with iframes, inline styles and a unique design that can only be described as a mix of brutalism and minimalism at the same time.</description>
     </item>
     
   </channel>
