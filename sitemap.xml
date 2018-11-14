@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mairamartins.com/blog/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://mairamartins.com/blog/categories/</loc>
     <priority>0</priority>
   </url>
