@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-type: "static"
 url: ""
+type: "static"
 draft: false
 hidden: true
 ---
