@@ -1,5 +1,5 @@
 # Site Settings
-baseURL = "/"
+baseURL = "https://mairamartins.com/blog/"
 languageCode = "en"
 title = "Maira Martins K"
 theme = "cactusplus"
