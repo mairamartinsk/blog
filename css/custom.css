@@ -446,3 +446,13 @@ a.symbol:hover {
 .archive .post-item:hover .post-link {
   color: #000;
 }
+
+nav.main-nav a.cta {
+  background-color: #fed900;
+  color: #000;
+}
+
+nav.main-nav a.cta:hover {
+  background-color: #000;
+  color: #fff;
+}
