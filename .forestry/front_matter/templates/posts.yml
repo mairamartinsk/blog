@@ -35,9 +35,6 @@ fields:
   config:
     required: false
   default: blog
-- type: boolean
-  name: draft
-  label: Draft
-  default: false
+  hidden: true
 pages:
 - content/posts/testing-forestry.md
