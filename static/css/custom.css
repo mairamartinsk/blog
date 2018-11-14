@@ -24,6 +24,11 @@ blockquote {
   color: #000;
 }
 
+b,
+strong {
+  font-weight: 700;
+}
+
 nav.main-nav {
   padding: 20px;
   display: flex;
@@ -40,7 +45,7 @@ nav.main-nav {
 nav.main-nav a {
   padding: 1rem;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: capitalize;
   text-decoration: none;
   line-height: 1.5;
@@ -85,7 +90,7 @@ a.symbol:hover {
 
 #post-body p > a {
   padding: 5px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
@@ -301,7 +306,7 @@ a.symbol:hover {
 
 .share-text {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   color: #666;
   margin-bottom: 6px;
 }
