@@ -9,10 +9,10 @@ hasCJKLanguage = false
 [params]
 	author = "Maira Martins K"
 	description = "A blog about front-end web development."
-	bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between. Currently digging React.js!"
+	bio = "Programmer. Photographer. Lover of dogs, cats, pizza, comics, computers and everything in between."
 	twitter = "mairamartinsk"
 
-	enableRSS = false
+	enableRSS = true
 	enableToc = false
 	enableDisqus = false
 	enableSummary = false
@@ -37,7 +37,7 @@ hasCJKLanguage = false
 
 	# Show latest posts in single page
 	showLatestPosts = false
-	readMore = ""
+	readMore = "Here is something you might like:"
 
 	# Share
 	enableShare = false
@@ -45,8 +45,8 @@ hasCJKLanguage = false
 	share = "Share on Facebook"
 
 	# 404 Page
-	title404 = ""
-	subtitle404 = ""
+	title404 = "OH NO!!!"
+	subtitle404 = "This is a 404 error page. It means one of us screwed things up and now we are nowhere."
 
 	# Social icons served by "mono-social" or "font-awesome"
 	iconFont = "mono-social"
