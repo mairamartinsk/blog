@@ -36,3 +36,5 @@ fields:
     required: false
   default: blog
   hidden: true
+pages:
+- content/posts/web-summit-2018.md
