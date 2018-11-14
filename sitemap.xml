@@ -3,93 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mairamartins.com/blog/posts/sample-post/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/posts/testing/</loc>
-    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://mairamartins.com/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/css/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/git/</loc>
-    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/html/</loc>
-    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/javascript/</loc>
-    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/categories/life/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mairamartins.com/blog/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/posts/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/react/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/ssg/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mairamartins.com/blog/tags/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/tags/vue/</loc>
-    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/categories/web-development/</loc>
-    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
