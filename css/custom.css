@@ -1,3 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0.5em 0;
+}
+
+blockquote {
+  border-left: 0;
+  padding-left: 3em;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2em;
+  color: #000;
+}
+
 nav.main-nav {
   padding: 20px;
   display: flex;
@@ -12,13 +38,12 @@ nav.main-nav {
 }
 
 nav.main-nav a {
-  padding: 0 12px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 1em;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
-  letter-spacing: 1px;
-  line-height: 2;
+  line-height: 1.5;
   color: #000;
   transition: all 450ms ease-out;
 }
@@ -35,6 +60,7 @@ nav.main-nav a:hover {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  line-height: 1.5;
 }
 
 .logo--M {
