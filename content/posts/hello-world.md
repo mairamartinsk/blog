@@ -2,9 +2,8 @@
 title: Hello World
 url: hello-world
 categories:
-- ''
-tags:
-- ''
+- Life
+tags: []
 date: 2018-11-14 06:00:45 +0000
 type: blog
 
