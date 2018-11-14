@@ -21,7 +21,7 @@ I've been very focused on learning front end development, and never gave much th
 
 I was also amazed at all the startups and the brilliant ideas people come up with, in the most different fields. For developers looking for jobs in Europe, Web Summit is probably one of the best places to network and find a new position.
 
-From a beginner's point of view, I came bacl home inspired and with a much better understanding of technology and future trends, but I can't say I got a ton of practical knowledge. It really it, first and foremost, a networking event.
+From a beginner's point of view, I came back home inspired and with a much better understanding of technology and future trends, but I can't say I got a ton of practical knowledge. It really is, first and foremost, a networking event.
 
 The ticket price is evidence of that. Priced from **850€** per attendee (not to mention lodging, food and other travel expenses), I feel very few consultants, freelancers and students are able to afford a ticket. Most people were there because their companies were covering their expenses.
 
