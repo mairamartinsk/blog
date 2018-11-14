@@ -20,8 +20,6 @@ I really want to claim a corner of the internet to call my own.
 
 > So, hello world. Welcome!
 
-I plan on publishing a new post every week. There will be study notes. There will be tutorials. There will be course reviews, and book reviews, and tech conference reviews. here will be tons of HTML, CSS and JavaScript. There will be typos. Heck, there might even be terrible mistakes!
+I plan on publishing a new post every week. Study notes, tutorials, courses and book reviews, tech conference news, project walkthroughs... I think it'll be cool. Let's do this! ❤
 
-Let's do this! ❤
-
-**Note:** There _won't_ be any hate and trolling though, which is why I am not enabling comments on the blog. Let's bring the discussion to Twitter and Linkedin, like this more people can join in and contribute with high-quality comments. // Also, if you find typos or even a huge code error, please send me an email, tweet or open a github issue and help me fix it. I am here to learn and I will be forever grateful for your _kind_ contributions.
+**Note:** There _won't_ be any hate and trolling around here, which is why I am not enabling comments on the blog. Let's bring the discussion to Twitter and Linkedin, like this more people can join in and contribute with high-quality comments. // Also, if you find typos or even a huge code error, please send me an email, tweet or open a github issue and help me fix it. I am here to learn and I will be forever grateful for your _kind_ contributions.
