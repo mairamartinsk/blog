@@ -39,3 +39,5 @@ fields:
   name: draft
   label: Draft
   default: false
+pages:
+- content/posts/testing-forestry.md
