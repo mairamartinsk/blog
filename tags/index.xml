@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Maira Martins K</title>
-    <link>/tags/</link>
+    <link>https://mairamartins.com/blog/tags/</link>
     <description>Recent content in Tags on Maira Martins K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Nov 2018 16:46:50 +0100</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mairamartins.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Css</title>
-      <link>/tags/css/</link>
+      <link>https://mairamartins.com/blog/tags/css/</link>
       <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>https://mairamartins.com/blog/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://mairamartins.com/blog/tags/git/</link>
       <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://mairamartins.com/blog/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>/tags/html/</link>
+      <link>https://mairamartins.com/blog/tags/html/</link>
       <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>https://mairamartins.com/blog/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>/tags/javascript/</link>
+      <link>https://mairamartins.com/blog/tags/javascript/</link>
       <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>/tags/javascript/</guid>
+      <guid>https://mairamartins.com/blog/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>/tags/react/</link>
+      <link>https://mairamartins.com/blog/tags/react/</link>
       <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>/tags/react/</guid>
+      <guid>https://mairamartins.com/blog/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssg</title>
-      <link>/tags/ssg/</link>
+      <link>https://mairamartins.com/blog/tags/ssg/</link>
       <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>/tags/ssg/</guid>
+      <guid>https://mairamartins.com/blog/tags/ssg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vue</title>
-      <link>/tags/vue/</link>
+      <link>https://mairamartins.com/blog/tags/vue/</link>
       <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>/tags/vue/</guid>
+      <guid>https://mairamartins.com/blog/tags/vue/</guid>
       <description></description>
     </item>
     
