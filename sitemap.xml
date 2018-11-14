@@ -3,98 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mairamartins.com/blog/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/posts/sample-post/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>/posts/testing/</loc>
+    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/about/</loc>
-    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mairamartins.com/blog/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/git/</loc>
+    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/html/</loc>
+    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/categories/life/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/tags/react/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/ssg/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mairamartins.com/blog/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/vue/</loc>
+    <lastmod>2018-11-12T16:46:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/web-development/</loc>
+    <lastmod>2018-11-12T16:01:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   

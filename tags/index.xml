@@ -1,67 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Maíra K Blog</title>
-    <link>https://mairamartins.com/blog/tags/</link>
-    <description>Recent content in Tags on Maíra K Blog</description>
+    <title>Tags on Maira Martins K</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Maira Martins K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Nov 2018 16:46:50 +0100</lastBuildDate>
     
-	<atom:link href="https://mairamartins.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>https://mairamartins.com/blog/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Css</title>
+      <link>/tags/css/</link>
+      <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/development/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://mairamartins.com/blog/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Git</title>
+      <link>/tags/git/</link>
+      <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/go/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://mairamartins.com/blog/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/golang/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://mairamartins.com/blog/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Mon, 12 Nov 2018 16:01:38 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/hugo/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Templates</title>
-      <link>https://mairamartins.com/blog/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>React</title>
+      <link>/tags/react/</link>
+      <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/templates/</guid>
+      <guid>/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Themes</title>
-      <link>https://mairamartins.com/blog/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Ssg</title>
+      <link>/tags/ssg/</link>
+      <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
       
-      <guid>https://mairamartins.com/blog/tags/themes/</guid>
+      <guid>/tags/ssg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vue</title>
+      <link>/tags/vue/</link>
+      <pubDate>Mon, 12 Nov 2018 16:46:50 +0100</pubDate>
+      
+      <guid>/tags/vue/</guid>
       <description></description>
     </item>
     
