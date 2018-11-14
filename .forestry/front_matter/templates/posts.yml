@@ -36,5 +36,3 @@ fields:
     required: false
   default: blog
   hidden: true
-pages:
-- content/posts/testing-forestry.md
