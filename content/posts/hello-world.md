@@ -1,16 +1,14 @@
 ---
-title: "Hello World"
-url: "hello-world"
-categories: [""]
-tags: [""]
-date: 2018-11-14T07:00:45+01:00
-type: "blog"
-draft: false
+title: Hello World
+url: hello-world
+categories:
+- ''
+tags:
+- ''
+date: 2018-11-14 06:00:45 +0000
+type: blog
+
 ---
-
-<!-- Cat: Life, Web Development, Tech and Career -->
-<!-- Tag: html, css, javascript, git, react, vue, ssg -->
-
 This is my second attempt at a programming blog. The first time was about a year ago, right when I first started to learn web development and unfortunately I was overcome with impostor syndrome and ended up deleting all the posts. I kinda regret that I didn't keep at it. It would have been so nice to go back and read about my many discoveries and challenges.
 
 _(You hear that, reader from the future? If you are a beginner and thinking to start a blog, do it. And don't delete it!)_
