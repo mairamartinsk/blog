@@ -38,4 +38,5 @@ fields:
   default: blog
   hidden: true
 pages:
+- content/posts/podcasts-about-everything.md
 - content/posts/web-summit-2018.md
