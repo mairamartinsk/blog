@@ -142,3 +142,7 @@ This show is about economy, but not in a financial way. It’s about humans comp
 Last, but definitely not least, This American Life. It used to be one of my favorite shows, and I learned so much from it. The reportage-style episodes took me all over the US and the world and gave me so much food for thought. Again, deranked because of excess politics since 2016. Still, their archive is extremely rich and the episodes are a **joy** to listen to. They have a great [recommendations page](https://www.thisamericanlife.org/recommended) and some of my personal favorites are the story _Squirrel Cop_ on ep. 510 _Fiasco_, and _Hero Today, Gone Tomorrow_ on ep. 587 _The Perils of Intimacy_.
 
 [podbay](http://podbay.fm/show/201671138) [itunes](https://itunes.apple.com/us/podcast/this-american-life/id201671138?mt=2)
+
+***
+
+If you are interested in tech and front end web development, and are searching for some good shows about it, I have also written about the [best podcasts for beginner developers](https://mairamartins.com/blog/podcasts-beginner-developer/).
