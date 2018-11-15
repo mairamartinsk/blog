@@ -368,31 +368,38 @@ a.symbol:hover {
   background-color: #ccc;
 }
 
-.site-tags .button.css {
+.site-tags .button.css,
+.site-tags .button.projects {
   background-color: #ab4642;
 }
 
-.site-tags .button.html {
+.site-tags .button.html,
+.site-tags .button.reviews {
   background-color: #dc9656;
 }
 
-.site-tags .button.javascript {
+.site-tags .button.javascript,
+.site-tags .button.wsl {
   background-color: #f7ca88;
 }
 
-.site-tags .button.vue {
+.site-tags .button.vue,
+.site-tags .button.workflow {
   background-color: #a1b56c;
 }
 
-.site-tags .button.react {
+.site-tags .button.react,
+.site-tags .button.gatsby {
   background-color: #86c1b9;
 }
 
-.site-tags .button.git {
+.site-tags .button.git,
+.site-tags .button.hugo {
   background-color: #7cafc2;
 }
 
-.site-tags .button.ssg {
+.site-tags .button.jam-stack,
+.site-tags .button.tools {
   background-color: #ba8baf;
 }
 
