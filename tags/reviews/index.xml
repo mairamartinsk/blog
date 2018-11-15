@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews on Maira Martins K</title>
+    <link>https://mairamartins.com/blog/tags/reviews/</link>
+    <description>Recent content in Reviews on Maira Martins K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Nov 2018 17:46:05 +0100</lastBuildDate>
+    
+	<atom:link href="https://mairamartins.com/blog/tags/reviews/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Summit 2018</title>
+      <link>https://mairamartins.com/blog/web-summit-2018/</link>
+      <pubDate>Wed, 14 Nov 2018 17:46:05 +0100</pubDate>
+      
+      <guid>https://mairamartins.com/blog/web-summit-2018/</guid>
+      <description>I came home a few days ago from my first tech conference, Web Summit 2018, and I thought I&amp;rsquo;d share my thoughts about it from the point of view of a newcomer to the industry.
+It is crazy!
+I&amp;rsquo;ve been to large photography conferences before, but Web Summit is massive in a whole different scale. I&amp;rsquo;m talking almost 70.000 attendees, 3 full-days of talks and workshops, a ton of startups, and people of the caliber of Tony Blair and Tim Berners-Lee giving presentations.</description>
+    </item>
+    
+  </channel>
+</rss>
