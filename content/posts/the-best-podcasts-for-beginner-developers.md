@@ -9,7 +9,7 @@ url = "podcasts-beginner-developer"
 +++
 It took me a long time to enjoy the idea of listening to programming podcasts. Since for the past year I've been studying so many hours (30h to 40h/week), I really wanted to use my podcast time to disconnect.
 
-As a beginner, it's easy to feel overwhelmed by everything you don't know. I still prefer to listen to [podcasts](/best-podcasts/) about everything else, but when I want to learn about web development, those are my go-to shows.
+As a beginner, it's easy to feel overwhelmed by everything you don't know. I still prefer to listen to [podcasts](/blog/best-podcasts/) about everything else, but when I want to learn about web development, those are my go-to shows.
 
 ### Syntax
 
