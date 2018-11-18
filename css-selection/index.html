@@ -101,7 +101,7 @@ Never having styled a highlight before, I set out to discover how to do it and, 
           Style Highlighted Text with CSS
         </h1>
         <h2 class="headline">
-          295 words
+          296 words
           · 2 minute read 
            · under
           <a href="https://mairamartins.com/blog/categories/web-development">Web Development</a>
@@ -141,9 +141,9 @@ Never having styled a highlight before, I set out to discover how to do it and, 
 
 <h2 id="feature-support">Feature Support</h2>
 
-<p>Support for ::selection is good, reaching <a href="https://caniuse.com/#feat=css-selection" title="CanIUse Feature Support">82% of the users</a>. The notable exception are iOS Safari and Opera Mini, that don&rsquo;t support it at all. That means almost 12% of all users, but the good news is their browser will simply ignore the selector and display the default browser selection style.</p>
+<p>Support for ::selection is good, reaching <a href="https://caniuse.com/#feat=css-selection" title="CanIUse Feature Support">82% of the users</a>. The notable exceptions are iOS Safari and Opera Mini, that don&rsquo;t support it at all. That means almost 12% of all users, but the good news is their browser will simply ignore the selector and display the browser&rsquo;s default selection style.</p>
 
-<p>Also, while sources online will suggest you use the vendor prefixed <code>::-moz-selection</code> to target Firefox, this is no longer needed since Firefox v.62. If you decide to include the prefixed version, you can use the snippet below and target both at once.</p>
+<p>Also, while sources online will suggest you use the vendor prefix <code>::-moz-selection</code> to target Firefox, this is no longer needed since Firefox version 62. If you decide to include the prefixed selector, you can use the snippet below and target both at once.</p>
 
 <pre><code class="language-css">::selection,
 ::-moz-selection {
@@ -156,7 +156,7 @@ Never having styled a highlight before, I set out to discover how to do it and, 
 
 <p>In my case, I wanted the highlight color to be applied globally to my whole blog, but it is also possible to create several different highlight styles, by using the pseudo-selector together with a class selector:</p>
 
-<pre><code class="language-css">.red-highlight::selection {
+<pre><code>.red-highlight::selection {
   background-color: red;
 }
 
