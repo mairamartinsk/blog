@@ -99,6 +99,8 @@ nav.main-nav a.logo {
   align-items: center;
   text-decoration: none;
   line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
 
 .logo--M {
@@ -128,7 +130,7 @@ nav.main-nav a.logo {
   display: block;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
   .mobile__toggle {
     display: flex;
     flex-direction: column;
