@@ -63,7 +63,7 @@ nav.main-nav {
   justify-content: space-evenly;
 }
 
-nav.main-nav a:not(.logo) {
+nav.main-nav a {
   padding: 1rem;
   font-size: 1em;
   font-weight: 700;
@@ -74,7 +74,7 @@ nav.main-nav a:not(.logo) {
   transition: all 450ms ease-out;
 }
 
-nav.main-nav a:hover:not(.logo) {
+nav.main-nav a:hover {
   color: #fed900;
 }
 
@@ -89,7 +89,7 @@ nav.main-nav a.cta:hover {
 }
 
 /* Main Site Logo */
-.logo {
+nav.main-nav a.logo {
   font-weight: 700;
   font-size: 1.2em;
   text-transform: uppercase;
