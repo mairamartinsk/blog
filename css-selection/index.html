@@ -101,7 +101,7 @@ Never having styled a highlight before, I set out to discover how to do it and, 
           Style Highlighted Text with CSS
         </h1>
         <h2 class="headline">
-          296 words
+          349 words
           · 2 minute read 
            · under
           <a href="https://mairamartins.com/blog/categories/web-development">Web Development</a>
@@ -156,13 +156,20 @@ Never having styled a highlight before, I set out to discover how to do it and, 
 
 <p>In my case, I wanted the highlight color to be applied globally to my whole blog, but it is also possible to create several different highlight styles, by using the pseudo-selector together with a class selector:</p>
 
-<pre><code>.red-highlight::selection {
+<pre><code class="language-css">.red-highlight::selection {
   background-color: red;
 }
 
 .blue-highlight::selection {
   background-color: blue;
 }
+</code></pre>
+
+<p>Then, on your html structure you can decide where the selection highlight will be applied to:</p>
+
+<pre><code class="language-html">&lt;p&gt;This paragraph will have the default style applied or the global ::selection style.&lt;/p&gt;
+&lt;p class=&quot;red-highlight&quot;&gt;This paragraph's text will display a red background when highlighted by user.&lt;/p&gt;
+&lt;p class=&quot;blue-highlight&quot;&gt;And this paragraph will have a blue background when selected!&lt;/p&gt;
 </code></pre>
 
       </section>
