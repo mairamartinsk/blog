@@ -1,3 +1,7 @@
+/*-------------------------------------
+	BASE STYLES
+-------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -13,7 +17,7 @@ h3 {
 }
 
 p {
-  padding: 0.5em 0;
+  padding: 0.3em 0;
 }
 
 blockquote {
@@ -29,6 +33,23 @@ strong {
   font-weight: 700;
 }
 
+/*-------------------------------------
+	GLOBAL STYLES
+-------------------------------------*/
+
+#wrapper {
+  margin-top: 3em;
+  padding: 25px;
+}
+
+::selection {
+  background-color: #fed900;
+}
+
+/*-------------------------------------
+	HEADER & NAV STYLES
+-------------------------------------*/
+
 nav.main-nav {
   padding: 20px;
   display: flex;
@@ -42,7 +63,7 @@ nav.main-nav {
   justify-content: space-evenly;
 }
 
-nav.main-nav a {
+nav.main-nav a:not(.logo) {
   padding: 1rem;
   font-size: 1em;
   font-weight: 700;
@@ -53,10 +74,21 @@ nav.main-nav a {
   transition: all 450ms ease-out;
 }
 
-nav.main-nav a:hover {
+nav.main-nav a:hover:not(.logo) {
   color: #fed900;
 }
 
+nav.main-nav a.cta {
+  background-color: #fed900;
+  color: #000;
+}
+
+nav.main-nav a.cta:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Main Site Logo */
 .logo {
   font-weight: 700;
   font-size: 1.2em;
@@ -81,12 +113,66 @@ nav.main-nav a:hover {
   padding: 5px;
 }
 
-a.symbol {
-  color: #000;
+/* Responsive Hamburger Menu */
+.mobile__toggle {
+  display: none;
+  opacity: 0;
 }
 
-a.symbol:hover {
-  color: #fed900;
+.mobile__toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #000;
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .mobile__toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    transition: all 0.6s;
+  }
+
+  .menu {
+    display: none;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  .nav--open .mobile__toggle {
+    transform: rotate(-90deg);
+  }
+
+  .nav--open .menu {
+    width: 100%;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .nav--open .logo {
+    padding-bottom: 1em;
+  }
+
+  .main-nav.nav--open {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+/*-------------------------------------
+	SINGLE STYLES
+-------------------------------------*/
+
+#wrapper.post {
+  margin-top: 0;
 }
 
 #post-body p > a {
@@ -104,9 +190,31 @@ a.symbol:hover {
   background-color: #000;
 }
 
-#wrapper {
-  margin-top: 3em;
-  padding: 25px;
+.post h2:not(.headline) {
+  padding: 1.5em 0 0.5em;
+}
+
+.post h2.headline {
+  color: #bbb;
+  margin-bottom: 3em;
+}
+
+.post h2.headline a {
+  color: #bbb;
+  text-decoration: underline;
+}
+
+.post h2.headline a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/*-------------------------------------
+	ARCHIVE / TERMS STYLES
+-------------------------------------*/
+
+#wrapper.terms header {
+  margin-bottom: 2em;
 }
 
 .page-tags ul li a {
@@ -119,6 +227,86 @@ a.symbol:hover {
 
 .archive .post-time {
   width: 100px;
+}
+
+.archive .post-item:hover .post-link {
+  color: #000;
+}
+
+/* Custom site tags */
+.site-tags {
+  margin-top: 4em;
+  border-top: 1px solid #bbb;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-tags .button {
+  margin: 2px 5px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ccc;
+}
+
+.site-tags .button.css,
+.site-tags .button.projects {
+  background-color: #ab4642;
+}
+
+.site-tags .button.html,
+.site-tags .button.reviews {
+  background-color: #dc9656;
+}
+
+.site-tags .button.javascript,
+.site-tags .button.wsl {
+  background-color: #f7ca88;
+}
+
+.site-tags .button.vue,
+.site-tags .button.workflow {
+  background-color: #a1b56c;
+}
+
+.site-tags .button.react,
+.site-tags .button.gatsby {
+  background-color: #86c1b9;
+}
+
+.site-tags .button.git,
+.site-tags .button.hugo {
+  background-color: #7cafc2;
+}
+
+.site-tags .button.jam-stack,
+.site-tags .button.tools {
+  background-color: #ba8baf;
+}
+
+/*-------------------------------------
+	SHARING BUTTON STYLES
+-------------------------------------*/
+
+.share-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.share-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
 }
 
 .resp-sharing-button__link,
@@ -305,171 +493,18 @@ a.symbol:hover {
   border-color: #046293;
 }
 
-.share-text {
-  font-size: 13px;
-  font-weight: 700;
-  color: #666;
-  margin-bottom: 6px;
-}
-
-.share-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3em;
-}
-
-.post h2.headline {
-  color: #bbb;
-  margin-bottom: 3em;
-}
-
-.post h2.headline a {
-  color: #bbb;
-  text-decoration: underline;
-}
-
-.post h2.headline a:hover {
-  color: #000;
-  text-decoration: underline;
-}
+/*-------------------------------------
+	FOOTER STYLES
+-------------------------------------*/
 
 #footer {
   margin-top: 5em;
 }
 
-#wrapper.post {
-  margin-top: 0;
-}
-
-#wrapper.terms header {
-  margin-bottom: 2em;
-}
-
-.site-tags {
-  margin-top: 4em;
-  border-top: 1px solid #bbb;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.site-tags .button {
-  margin: 2px 5px;
-  padding: 8px;
-  border-radius: 4px;
-  font-size: 0.8em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #ccc;
-}
-
-.site-tags .button.css,
-.site-tags .button.projects {
-  background-color: #ab4642;
-}
-
-.site-tags .button.html,
-.site-tags .button.reviews {
-  background-color: #dc9656;
-}
-
-.site-tags .button.javascript,
-.site-tags .button.wsl {
-  background-color: #f7ca88;
-}
-
-.site-tags .button.vue,
-.site-tags .button.workflow {
-  background-color: #a1b56c;
-}
-
-.site-tags .button.react,
-.site-tags .button.gatsby {
-  background-color: #86c1b9;
-}
-
-.site-tags .button.git,
-.site-tags .button.hugo {
-  background-color: #7cafc2;
-}
-
-.site-tags .button.jam-stack,
-.site-tags .button.tools {
-  background-color: #ba8baf;
-}
-
-.mobile__toggle {
-  display: none;
-  opacity: 0;
-}
-
-.mobile__toggle span {
-  width: 30px;
-  height: 4px;
-  margin-bottom: 6px;
-  border-radius: 1000px;
-  background: #000;
-  display: block;
-}
-
-@media screen and (max-width: 900px) {
-  .mobile__toggle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 1;
-    transition: all 0.6s;
-  }
-
-  .menu {
-    display: none;
-    opacity: 0;
-    transition: all 0.3s;
-  }
-
-  .nav--open .mobile__toggle {
-    transform: rotate(-90deg);
-  }
-
-  .nav--open .menu {
-    width: 100%;
-    padding-top: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    opacity: 1;
-  }
-
-  .nav--open .logo {
-    padding-bottom: 1em;
-  }
-
-  .main-nav.nav--open {
-    height: auto;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-}
-
-.archive .post-item:hover .post-link {
+a.symbol {
   color: #000;
 }
 
-nav.main-nav a.cta {
-  background-color: #fed900;
-  color: #000;
-}
-
-nav.main-nav a.cta:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-::selection {
-  background-color: #fed900;
+a.symbol:hover {
+  color: #fed900;
 }
