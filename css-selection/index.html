@@ -14,10 +14,10 @@
     
   
   
-  <meta name="twitter:title" content="Web Summit 2018"/>
-  <meta name="twitter:description" content="I came home a few days ago from my first tech conference, Web Summit 2018, and I thought I&rsquo;d share my thoughts about it from the point of view of a newcomer to the industry.
-It is crazy!
-I&rsquo;ve been to large photography conferences before, but Web Summit is massive in a whole different scale. I&rsquo;m talking almost 70.000 attendees, 3 full-days of talks and workshops, a ton of startups, and people of the caliber of Tony Blair and Tim Berners-Lee giving presentations."/>
+  <meta name="twitter:title" content="Style Highlighted Text with CSS"/>
+  <meta name="twitter:description" content="Today I was trying to decide what content to write about, when I accidently highlighted some text on my own blog.
+Normally, the background color of the highlighted portion shows up in blue, in the same shade as the browser&rsquo;s default focus color. While this is not a bad thing at all, I would prefer it to match my color palette (black, yellow, white).
+Never having styled a highlight before, I set out to discover how to do it and, 60 seconds later, it was done!"/>
   
     <meta name="twitter:site" content="@mairamartinsk"/>
   
@@ -35,7 +35,7 @@ I&rsquo;ve been to large photography conferences before, but Web Summit is massi
   
   <meta name="description" content="A blog about front-end web development.">
   <meta name="generator" content="Hugo 0.51" />
-  <title>Web Summit 2018 &middot; Maira Martins K</title>
+  <title>Style Highlighted Text with CSS &middot; Maira Martins K</title>
   <link rel="shortcut icon" href="https://mairamartins.com/blog/images/favicon.ico">
   <link rel="stylesheet" href="https://mairamartins.com/blog/css/style.css">
   <link rel="stylesheet" href="https://mairamartins.com/blog/css/highlight.css">
@@ -98,40 +98,72 @@ I&rsquo;ve been to large photography conferences before, but Web Summit is massi
     <article>
       <header>
         <h1>
-          Web Summit 2018
+          Style Highlighted Text with CSS
         </h1>
         <h2 class="headline">
-          372 words
+          295 words
           · 2 minute read 
            · under
-          <a href="https://mairamartins.com/blog/categories/tech-and-career">Tech and Career</a>
+          <a href="https://mairamartins.com/blog/categories/web-development">Web Development</a>
           
           
         </h2>
       </header>
       
       <section id="post-body">
-        <p><img src="https://res.cloudinary.com/mairak/image/upload/w_auto,f_auto,q_auto,dpr_auto/v1542214381/web-summit-2018.jpg" alt="Center stage of web summit Lisbon 2018" title="Web Summit 2018" /></p>
+        
 
-<p>I came home a few days ago from my first tech conference, <a href="https://websummit.com/" title="Web Summit">Web Summit 2018</a>, and I thought I&rsquo;d share my thoughts about it from the point of view of a newcomer to the industry.</p>
+<p>Today I was trying to decide what content to write about, when I accidently highlighted some text on my own blog.</p>
 
-<p>It is crazy!</p>
+<p>Normally, the background color of the highlighted portion shows up in blue, in the same shade as the browser&rsquo;s default focus color. While this is not a bad thing at all, I would prefer it to match my color palette (black, yellow, white).</p>
 
-<p>I&rsquo;ve been to large photography conferences before, but Web Summit is massive in a whole different scale. I&rsquo;m talking almost 70.000 attendees, 3 full-days of talks and workshops, a ton of startups, and people of the caliber of Tony Blair and Tim Berners-Lee giving presentations.</p>
+<p>Never having styled a highlight before, I set out to discover how to do it and, 60 seconds later, it was done!</p>
 
-<p>I saw practical applications of machine learning and artificial intelligence today and how they might shape our future and that, in and of itself, was fantastic.</p>
+<pre><code class="language-css">::selection {
+  background-color: #fed900;
+}
+</code></pre>
 
-<p>I&rsquo;ve been very focused on learning front end development, and never gave much thought to ML and AI. It all sounded like industry jargon to me, something that only ultra-science folks did. Now I can&rsquo;t stop thinking of ways in which AI and ML could improve my day-to-day life.</p>
+<p>According to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::selection" title="MDN Documentation">MDN</a>, the pseudo-element <code>::selection</code> allows us to specifically target content that has been highlighted by clicking and dragging with the mouse.</p>
 
-<p>I was also amazed at all the startups and the brilliant ideas people come up with, in the most different fields. For developers looking for jobs in Europe, Web Summit is probably one of the best places to network and find a new position.</p>
+<p>Historically, only the <code>color</code> and <code>background-color</code> properties were supported, but today many more properties can be used (as of November 2018):</p>
 
-<p>From a beginner&rsquo;s point of view, I came back home inspired and with a much better understanding of technology and future trends, but I can&rsquo;t say I got a ton of practical knowledge. It really is, first and foremost, a networking event.</p>
+<ul>
+<li><code>color</code></li>
+<li><code>background-color</code></li>
+<li><code>cursor</code></li>
+<li><code>caret-color</code></li>
+<li><code>outline</code></li>
+<li><code>text-decoration</code></li>
+<li><code>text-emphasis-color</code></li>
+<li><code>text-shadow</code></li>
+</ul>
 
-<p>The ticket price is evidence of that. Priced from <strong>850€</strong> per attendee (not to mention lodging, food and other travel expenses), I feel very few consultants, freelancers and students are able to afford a ticket. Most people were there because their companies were covering their expenses.</p>
+<h2 id="feature-support">Feature Support</h2>
 
-<p>I was lucky enough to get a ticket as part of the <a href="https://websummit.com/women-in-tech">Women in Tech</a> initiative. Basically, they offered 10k tickets at a discounted price of 84€ (yep, you read that right) and for that price TWO women could attend. This means I actually paid <strong>42€</strong> for my ticket!</p>
+<p>Support for ::selection is good, reaching <a href="https://caniuse.com/#feat=css-selection" title="CanIUse Feature Support">82% of the users</a>. The notable exception are iOS Safari and Opera Mini, that don&rsquo;t support it at all. That means almost 12% of all users, but the good news is their browser will simply ignore the selector and display the default browser selection style.</p>
 
-<p>Overall, I loved the summit, but I don&rsquo;t think I&rsquo;ll be attending it for the next couple of years, and instead I will check out some smaller conferences specifically about CSS and JS.</p>
+<p>Also, while sources online will suggest you use the vendor prefixed <code>::-moz-selection</code> to target Firefox, this is no longer needed since Firefox v.62. If you decide to include the prefixed version, you can use the snippet below and target both at once.</p>
+
+<pre><code class="language-css">::selection,
+::-moz-selection {
+  color: black;
+  background-color: yellow;
+}
+</code></pre>
+
+<h2 id="multiple-highlight-styles">Multiple Highlight Styles</h2>
+
+<p>In my case, I wanted the highlight color to be applied globally to my whole blog, but it is also possible to create several different highlight styles, by using the pseudo-selector together with a class selector:</p>
+
+<pre><code class="language-css">.red-highlight::selection {
+  background-color: red;
+}
+
+.blue-highlight::selection {
+  background-color: blue;
+}
+</code></pre>
 
       </section>
     </article>
