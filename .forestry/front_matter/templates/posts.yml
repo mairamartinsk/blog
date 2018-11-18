@@ -32,3 +32,5 @@ fields:
   description: blog or static
   hidden: true
   default: blog
+pages:
+- content/posts/how-to-create-a-responsive-hamburger-menu-with-css-and-javascript.md
