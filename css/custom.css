@@ -469,3 +469,7 @@ nav.main-nav a.cta:hover {
   background-color: #000;
   color: #fff;
 }
+
+::selection {
+  background-color: #fed900;
+}
