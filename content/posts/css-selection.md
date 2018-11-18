@@ -60,3 +60,11 @@ In my case, I wanted the highlight color to be applied globally to my whole blog
   background-color: blue;
 }
 ```
+
+Then, on your html structure you can decide where the selection highlight will be applied to:
+
+```html
+<p>This paragraph will have the default style applied or the global ::selection style.</p>
+<p class="red-highlight">This paragraph's text will display a red background when highlighted by user.</p>
+<p class="blue-highlight">And this paragraph will have a blue background when selected!</p>
+```
