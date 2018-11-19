@@ -23,6 +23,12 @@ fields:
   label: Tags
   description: 'Choose any: html, css, javascript, git, react, vue, hugo, gatsby,
     jam-stack, wsl, workflow, tools, projects, reviews'
+- type: file
+  label: og_image
+  name: og_image
+  description: image to use for open graph
+  config:
+    maxSize: '2'
 - type: datetime
   name: date
   label: Date
