@@ -4,6 +4,7 @@ url: ""
 categories: [""]
 tags: [""]
 date: {{ .Date }}
+og_image: ""
 type: "blog"
 draft: false
 ---

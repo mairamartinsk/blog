@@ -3,8 +3,9 @@ baseURL = "https://mairamartins.com/blog/"
 languageCode = "en"
 title = "Maira Martins K"
 theme = "cactusplus"
-googleAnalytics = ""
+googleAnalytics = "UA-129438414-1"
 hasCJKLanguage = false
+enableRobotsTXT = true
 
 [params]
 	author = "Maira Martins K"
@@ -21,6 +22,7 @@ hasCJKLanguage = false
 	enableGoogleAnalytics = true
 	enableTwitterCard = true
 	twitterCardImage = ""
+	og_image = "https://res.cloudinary.com/mairak/image/upload/v1542638938/maira-sunny-winter.jpg"
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ["css/custom.css"]
