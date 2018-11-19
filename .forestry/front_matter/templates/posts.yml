@@ -38,3 +38,5 @@ fields:
   description: blog or static
   hidden: true
   default: blog
+pages:
+- content/posts/web-summit-2018.md
