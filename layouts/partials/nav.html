@@ -8,7 +8,7 @@
   <div class="menu">
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
-    <a href="{{ .Permalink }}">{{ $name }}</a> {{ end }} {{ end }}
+    <a href="{{ .Permalink }}">{{ humanize $name }}</a> {{ end }} {{ end }}
     <a href="{{ .Site.BaseURL }}about">{{ with.Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 
     <a href="https://mairamartins.com">Portfolio</a>
