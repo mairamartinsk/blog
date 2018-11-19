@@ -6,10 +6,21 @@
     <description>Recent content in Tech and Career on Maira Martins K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Nov 2018 17:49:27 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 12:19:02 +0100</lastBuildDate>
     
 	<atom:link href="https://mairamartins.com/blog/categories/tech-and-career/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CS50, an intro to Computer Science</title>
+      <link>https://mairamartins.com/blog/cs50-week0/</link>
+      <pubDate>Mon, 19 Nov 2018 12:19:02 +0100</pubDate>
+      
+      <guid>https://mairamartins.com/blog/cs50-week0/</guid>
+      <description>I started CS50 a couple weeks ago, with a goal of getting it done during this second round of #100DaysOfCode, but with the Web Summit and job-hunting and trying to complete two freeCodeCamp certifications, I kind of let CS50 slide.
+What is CS50 CS50 is Harvard&amp;rsquo;s University intro to Computer Science, that I am taking for free as a self-paced course through EdX.
+As a front end web developer I don&amp;rsquo;t really need to know computer science concepts to do my job.</description>
+    </item>
     
     <item>
       <title>The Best Podcasts for Beginner Developers</title>

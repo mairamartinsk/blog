@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mairamartins.com/blog/cs50-week0/</loc>
+    <lastmod>2018-11-19T12:19:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mairamartins.com/blog/css-selection/</loc>
     <lastmod>2018-11-18T10:48:33+00:00</lastmod>
   </url>
@@ -50,13 +55,19 @@
   
   <url>
     <loc>https://mairamartins.com/blog/</loc>
-    <lastmod>2018-11-18T10:48:33+00:00</lastmod>
+    <lastmod>2018-11-19T12:19:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mairamartins.com/blog/posts/</loc>
-    <lastmod>2018-11-18T10:48:33+00:00</lastmod>
+    <lastmod>2018-11-19T12:19:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mairamartins.com/blog/tags/projects/</loc>
+    <lastmod>2018-11-19T12:19:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,7 +85,7 @@
   
   <url>
     <loc>https://mairamartins.com/blog/categories/tech-and-career/</loc>
-    <lastmod>2018-11-15T17:49:27+01:00</lastmod>
+    <lastmod>2018-11-19T12:19:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
