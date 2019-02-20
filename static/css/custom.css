@@ -257,11 +257,13 @@ nav.main-nav a.logo {
   background-color: #ccc;
 }
 
+.site-tags .button.random,
 .site-tags .button.css,
 .site-tags .button.projects {
   background-color: #ab4642;
 }
 
+.site-tags .button.spain,
 .site-tags .button.html,
 .site-tags .button.reviews {
   background-color: #dc9656;
@@ -272,23 +274,24 @@ nav.main-nav a.logo {
   background-color: #f7ca88;
 }
 
-.site-tags .button.vue,
+.site-tags .button.greenery,
+.site-tags .button.career,
 .site-tags .button.workflow {
   background-color: #a1b56c;
 }
 
 .site-tags .button.react,
-.site-tags .button.gatsby {
+.site-tags .button.photography {
   background-color: #86c1b9;
 }
 
 .site-tags .button.git,
-.site-tags .button.hugo {
+.site-tags .button.travels {
   background-color: #7cafc2;
 }
 
 .site-tags .button.jam-stack,
-.site-tags .button.tools {
+.site-tags .button.house-makeover {
   background-color: #ba8baf;
 }
 
