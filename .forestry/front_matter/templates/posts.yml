@@ -17,12 +17,13 @@ fields:
 - type: tag_list
   name: categories
   label: Categories
-  description: 'Choose one: Life, Web Development, Tech and Career'
+  description: 'Choose one: Life, Web Development, Photography'
 - type: tag_list
   name: tags
   label: Tags
-  description: 'Choose any: html, css, javascript, git, react, vue, hugo, gatsby,
-    jam-stack, wsl, workflow, tools, projects, reviews'
+  description: 'Choose any: html, css, javascript, git, react, wsl, jam-stack, workflow,
+    projects, reviews, career, photography, travels, spain, house-makeover, greenery,
+    random'
 - type: file
   label: og_image
   name: og_image
