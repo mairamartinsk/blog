@@ -1,5 +1,5 @@
 +++
-categories = ["Tech and Career"]
+categories = ["Web Development"]
 date = "2018-11-14T17:46:05+01:00"
 og_image = "https://res.cloudinary.com/mairak/image/upload/w_auto,f_auto,q_auto,dpr_auto/v1542214381/web-summit-2018.jpg"
 tags = ["reviews"]
