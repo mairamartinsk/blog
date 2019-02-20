@@ -1,13 +1,14 @@
 ---
-title: "CS50, an intro to Computer Science"
-url: "cs50-week0"
-categories: ["Tech and Career"]
-tags: ["projects"]
-date: 2018-11-19T12:19:02+01:00
-type: "blog"
-draft: false
----
+title: CS50, an intro to Computer Science
+url: cs50-week0
+categories:
+- Web Development
+tags:
+- projects
+date: 2018-11-19 11:19:02 +0000
+type: blog
 
+---
 I started CS50 a couple weeks ago, with a goal of getting it done during this second round of _#100DaysOfCode_, but with the [Web Summit](https://mairamartins.com/blog/web-summit-2018/) and job-hunting and trying to complete two freeCodeCamp certifications, I kind of let CS50 slide.
 
 ## What is CS50
