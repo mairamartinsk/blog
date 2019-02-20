@@ -1,5 +1,5 @@
 +++
-categories = ["Tech and Career"]
+categories = ["Web Development"]
 date = "2018-11-15T17:49:27+01:00"
 tags = ["reviews"]
 title = "The Best Podcasts for Beginner Developers"
